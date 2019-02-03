@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sun-web-app PUBLIC "-//Sun Microsystems, Inc.//DTD GlassFish Application Server 3.0 Servlet 3.0//EN" "http://www.sun.com/software/appserver/dtds/sun-web-app_3_0-0.dtd">
+<sun-web-app error-url="">
+  <context-root>/DVDLibrary</context-root>
+  <security-role-mapping>
+    <role-name>admin</role-name>
+    <principal-name>duke</principal-name>
+    <principal-name>andy</principal-name>
+    
+  </security-role-mapping>
+  <security-role-mapping>
+    <role-name>user</role-name>
+    <principal-name>pat</principal-name>
+  </security-role-mapping>
+  <class-loader delegate="true"/>
+  <jsf-config>
+    <property name="keepgenerated" value="true">
+      <description> </description>
+    </property>
+  </jsf-config>
+</sun-web-app>
+
